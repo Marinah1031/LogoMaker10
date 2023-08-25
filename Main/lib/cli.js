@@ -52,6 +52,18 @@ class CLI {
             shape.setColor(shapeColor);
 
             const svg = new SVG();
+            svg.setText(text, textColor);
+            svg.setShape(shape);
+            return writeFile("logo.svg", svg.render());
         })
+        .then(() => {
+            console.log("Generated logo.svg");
+        })
+        .catch((error) => {
+            console.log(error);
+            console.log("Sorry, something went wrong.");
+        });
     }
 }
+
+module.exports = CLI;
