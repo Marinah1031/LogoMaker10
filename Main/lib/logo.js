@@ -4,8 +4,8 @@ const {SVG} = require("./svg");
 const { Circle, Triangle, Square } = require("./shapes");
 const { writeFile } = require("fs/promises");
 
-
-class CLI {
+//
+class logo {
     async run() {
         try {
             const { text, textColor, shapeType, shapeColor } = await inquirer.prompt([
@@ -63,4 +63,4 @@ class CLI {
 
 
 
-module.exports = CLI;
+module.exports = logo;

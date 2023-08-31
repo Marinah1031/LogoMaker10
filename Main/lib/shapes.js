@@ -36,7 +36,7 @@ class Square extends Shape {
         super(color)
     }
     render() {
-        return `<rect x="90" y="40" width="100" height="120" fill="${this.color}" />`;
+        return `<rect x="90" y="45" width="125" height="125" fill="${this.color}" />`;
 }
 }
 module.exports = {

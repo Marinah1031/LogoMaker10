@@ -1,3 +1,3 @@
-const CLI = require("./Main/lib/cli");
+const logo = require("./Main/lib/logo");
 
-new CLI().run();
+new logo().run();
