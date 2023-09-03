@@ -6,6 +6,28 @@
 ## Description
 This application can be used to create fun and easy generated logos for your personal use
 
+## Table of Contents
+
+* [Installation](#Installation)
+  
+* [Tests](#Tests)
+
+* [Sample](#Sample)
+
+* [Contribution](#Contribution)
+
+* [Questions](#Questions)
+
+
+## Installation
+
+For installation of dependencies, use the command below.
+
+```
+npm i
+```
+
+
 ## Tests
 
 For running tests, use the command below.
@@ -13,9 +35,11 @@ For running tests, use the command below.
 ```
 npm test
 ```
+![Screenshot (109)](https://github.com/Marinah1031/LogoMaker10/assets/125934804/cc3ae5eb-ce78-4372-a8d4-7403a2add98e)
 
-## Sample Logo
+## Sample 
 C:\Users\marin\bootcamp\Projects\LogoMaker10\Assets\logo.svg 
+
 ## Contribution
 - Tutor: Trinh Nguyen
 - Instructor (Jared Kotoff)
