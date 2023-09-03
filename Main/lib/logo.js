@@ -17,7 +17,7 @@ class logo {
                     name: "text",
                     type: "input",
                     message: "Enter the text you want to add to your svg file. (Must be less than 4 characters.)",
-                    validate: (text) => text.length <= 3 || "The message must not have less than 4 characters",
+                    validate: (text) => text.length <= 3 || "The message must not have more than 3 characters",
                 },
                 {
                     //color of the text
